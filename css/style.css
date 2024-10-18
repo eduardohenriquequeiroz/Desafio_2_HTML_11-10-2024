@@ -32,6 +32,10 @@ ul{
     gap: 80px;
 }
 
+li{
+    margin-right: 20px;
+}
+
 .Logo{
     width: 150px;
     display: flex;
@@ -41,16 +45,38 @@ ul{
     width: 80px;
 }
 
-.My{
-    justify-content: left;
-}
-
 img{
     width: 100%;
 }
 
 section{
     background-image: url('../img/banner.png');
-    height: 85dvh;
+    height: 71dvh;
     background-size: 100% 100%;
+}
+
+.Logotipo{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4rem;
+    display: flex;
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 350px;
+}
+
+.amarelo{
+    font-size: 1.3rem;
+    width: 200px;
+    height: 60px;
+    border-radius:200px;
+    margin-left: 220px;
+    margin-top: 40px;
+    background-color: #e2e212;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
